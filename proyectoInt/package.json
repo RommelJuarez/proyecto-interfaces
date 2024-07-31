@@ -1,7 +1,7 @@
 {
   "name": "proyectoint",
   "private": true,
-  "homepage": "https://rommeljuarez.github.io/proyecto-interfaces/proyectoInt/dist/",
+  "homepage": "https://rommeljuarez.github.io/proyecto-interfaces",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
