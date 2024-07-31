@@ -1,0 +1,22 @@
+.accordion-background {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .accordion-container {
+    margin-top: 12%;
+    margin-bottom: 15%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 90%;
+  }
+  

@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #1006035c !important; 
+    backdrop-filter: blur(10px); 
+    transition: background-color 0.3s ease; 
+    
+  }
+  .navbar,
+  .navbar .navbar-brand,
+  .navbar .nav-link,
+  .navbar  {
+    color: #ffffff;
+    --bs-navbar-active-color: rgb(240 236 236);
+  }

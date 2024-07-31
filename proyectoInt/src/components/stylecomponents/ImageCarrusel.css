@@ -1,0 +1,55 @@
+/* src/components/stylecomponents/ImageCarrusel.css */
+
+#carouselContainer {
+  margin-top: 0px; /* Ajusta según la altura de tu Navbar */
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  transition: transform 1.5s ease-in-out; /* Ajusta el tiempo aquí */
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center; 
+  height: 30%;
+  width: 95%;
+
+}
+
+.carousel-caption h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem; 
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; 
+  top: 50%; 
+  transform: translateY(-50%); 
+}
+
+.carousel-control-prev {
+  left: 10px; 
+}
+
+.carousel-control-next {
+  right: 10px; 
+}
+
