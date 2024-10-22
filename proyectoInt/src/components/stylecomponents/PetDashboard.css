@@ -1,0 +1,69 @@
+.pet-dashboard {
+    padding: 20px;
+  }
+  
+  .pet-card {
+    transition: transform 0.2s;
+  }
+  
+  .pet-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pet-image {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .match {
+    background-color: #f8f9fa; /* Fondo claro para los matches */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .match:hover {
+    background-color: #e2e6ea; /* Color de fondo al pasar el mouse */
+  }
+  
+  .pet-dashboard {
+    margin-top: 40px; /* Margen superior */
+}
+
+h1 {
+    color: #ff3c3c; /* Color rojo Tinder */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+h2 {
+    color: #ff3c3c; /* Color rojo Tinder */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilos para las tarjetas de mascotas */
+.pet-card {
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para evitar que las imágenes se salgan */
+}
+
+/* Estilos de la imagen de la mascota */
+.pet-image {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .pet-card {
+        margin-bottom: 20px; /* Espacio entre tarjetas en pantallas pequeñas */
+    }
+}
+
+/* Colocación de los botones */
+.btn {
+    flex-grow: 1; /* Hacer que los botones crezcan para ocupar el espacio disponible */
+    margin: 0 5px; /* Espacio entre botones */
+}

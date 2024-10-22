@@ -1,26 +1,69 @@
 /* Integrantes.css */
 .custom-container {
-    position: relative;
-    min-height: 100vh;
-    background: url('/images/imagen3.jpg') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .custom-card {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none; 
-    border-radius: 0.5rem; 
-  }
-  
-  .custom-card .card-body {
-    padding: 1.25rem; 
-  }
-  
-  .custom-card img {
-    object-fit: cover; 
-    height: 100%; 
-  }
+  position: relative;
+  min-height: 100vh;
+  background: url('/public/images/petinderback.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal.fade .modal-dialog {
+  transform: scale(0.8);
+  opacity: 0;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+/* Cambiar el color de fondo del modal */
+.modal-content {
+  background-color: #111519;
+  /* Fondo negro semi-transparente */
+  color: white;
+  /* Color del texto dentro del modal */
+}
+
+.modal.fade.show .modal-dialog {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.custom-title {
+  font-size: 8vw;
+  /* Cambia el tamaño del texto a lo que necesites */
+  color: #f8f8f8;
+  /* Color del texto */
+  text-align: center;
+  /* Alineación del texto si lo deseas */
+  margin-bottom: 20px;
+  /* Espacio debajo del título */
+  font-weight: bold;
+}
+
+.open-modal-button {
+  background-color: #ff0000; /* Cambia este color según tus preferencias */
+  border: none; /* Eliminar el borde si lo deseas */
+  padding: 10px 30px; /* Aumenta el padding para hacer el botón más ancho */
+  border-radius: 20px; /* Borde más redondeado */
+  font-size: 1.25rem; /* Aumenta el tamaño de la fuente (puedes ajustarlo) */
+  font-weight: bold; /* Negrita en el texto del botón */
+}
+
+.open-modal-button:hover {
+  background-color: #ff4d00;
+  /* Color al pasar el ratón */
+}
+.modal-submit-button {
+  background-color: #ff0000; /* Cambia este color según tus preferencias */
+  border: none; /* Eliminar el borde si lo deseas */
+}
+
+.modal-submit-button:hover {
+  background-color: #ff4d00; /* Color al pasar el ratón */
+}
+.open-modal-button:focus {
+  outline: none; /* Elimina el contorno de enfoque */
+  box-shadow: none; /* Elimina cualquier sombra aplicada al botón */
+  background-color: #ff0000;
+}

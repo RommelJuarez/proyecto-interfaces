@@ -4,3 +4,19 @@
   box-sizing: border-box;
   
 }
+/* styles.css */
+html, body {
+  height: 100%; /* Asegura que el body ocupe toda la altura */
+  margin: 0; /* Elimina los márgenes del body */
+  scrollbar-width: none; /* Oculta la barra de desplazamiento */
+}
+
+.scrollable {
+  height: 100%; /* Asegura que el contenedor ocupe toda la altura */
+  overflow: auto; /* Permite el desplazamiento en este contenedor */
+  scrollbar-width: none; /* Para Firefox */
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none; /* Para WebKit (Chrome, Safari) */
+}
